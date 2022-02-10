@@ -55,3 +55,45 @@ margin-right: 7px;
     background-color: rgba(0,0,0, 0.3);
     padding: 7px;
 }
+
+/* NAV */
+
+nav{
+    background-color: #222222;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    list-style-type: none;
+    color: white;
+    display: flex;
+    
+}
+
+nav li i{
+    font-size: 2rem;
+}
+
+nav ul li{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.end-button{
+    background-color: #4a4a4a;
+    color: red;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.end-button a{
+    color: red;
+    text-decoration: none;
+
+}

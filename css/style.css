@@ -6,7 +6,7 @@ padding: 0;
 }
 
 body{
-    /* background-color: black; */
+    background-color: black;
     height: 100vh;
 }
 
@@ -31,19 +31,24 @@ body{
 /* IMG CONTAINER */
 
 .img-container{
-    padding: 80px 100px;
+    margin-top: 80px;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 80px;
+    
 }
 
 .user-img{
-/* background-image: url("https://picsum.photos/300/200"); */
-background-image: url(../img/img-example.jpg);
-background-size: contain;
+background-image: url("https://picsum.photos/300/200");
 height: 200px;
 width: 300px;
 display: flex;
 align-items: flex-end;
+margin-bottom: 20px;
+margin-right: 7px;
 }
+
 
 .user-img p{
     color: white;

@@ -37,22 +37,21 @@ body{
 /* IMG CONTAINER */
 
 .img-container{
-    margin-top: 80px;
+    margin-top: 40px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 0 80px;
-    
+    padding: 0 50px;
 }
 
 .user-img{
-background-image: url("https://picsum.photos/300/200");
-height: 200px;
-width: 300px;
-display: flex;
-align-items: flex-end;
-margin-bottom: 20px;
-margin-right: 7px;
+    background-image: url("https://picsum.photos/300/200");
+    width: calc(100% / 7 - 10px);
+    height: 140px;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 20px;
+    margin-right: 7px;
 }
 
 
@@ -68,7 +67,7 @@ nav{position: absolute;
     bottom: 0;
     width: 100%;
     background-color: #222222;
-    height: 100px;
+    padding: 15px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;

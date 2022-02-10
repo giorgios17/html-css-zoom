@@ -10,6 +10,12 @@ body{
     height: 100vh;
 }
 
+/* UTILITY */
+
+.m-lft-10{
+    margin-left: 10px;
+}
+
 
 
 /* BUTTON-VIEW */
@@ -59,6 +65,9 @@ margin-right: 7px;
 /* NAV */
 
 nav{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     background-color: #222222;
     height: 100px;
     display: flex;
@@ -70,30 +79,39 @@ nav ul{
     list-style-type: none;
     color: white;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     
+}
+
+nav ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
 }
 
 nav li i{
     font-size: 2rem;
 }
 
-nav ul li{
-    display: flex;
-    flex-direction: column;
-    margin-right: 20px;
-}
+
 
 .end-button{
     background-color: #4a4a4a;
-    color: red;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 15px 30px;
 }
 
 .end-button a{
-    color: red;
+    color: #f50d15;
     text-decoration: none;
 
+}
+
+#share{
+    color: #4ac205;
 }
